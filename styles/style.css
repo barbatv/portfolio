@@ -3,7 +3,7 @@
 :root {
     --cor-primaria: #000000;
     --cor-secundaria: #F6F6F6;
-    --cor-terciaria: #22D4FD;
+    --cor-terciaria: #fd228b;
     --cor-hover: #272727;
 
     --fonte-primaria: 'Krona One', sans-serif;
@@ -26,6 +26,10 @@ body{
 .cabecalho__menu{
     display: flex;
     gap: 80px;
+}
+
+.cabecalho__menu:hover{
+    color: var(--cor-secundaria);
 }
 .cabecalho__menu__link{
     font-family: var(--fonte-secundaria);
